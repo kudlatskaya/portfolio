@@ -1,0 +1,15 @@
+.skillsBlock {
+    height: 100vh;
+    background: #393F40;
+    color: #F2DCE0;
+
+}
+
+.title {
+    font-weight: bold;
+    text-align: center;
+}
+
+.skills {
+    border: 1px solid #F2295F;
+}
