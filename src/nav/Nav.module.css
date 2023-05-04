@@ -1,0 +1,6 @@
+.nav {
+    border: 1px solid var(--green-color);
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}

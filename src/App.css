@@ -1,3 +1,12 @@
+/*--main-color: black;*/
+/*color: var(--main-color);*/
+:root {
+    --pinc-color: #F2DCE0;
+    --red-color: #F2295F;
+    --gray-color: #393F40;
+    --green-color: #038C7F;
+    --light-green-color: #C1D9D6;
+}
 .App {
 
 }
