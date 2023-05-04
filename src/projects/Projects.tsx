@@ -3,8 +3,8 @@ import c from '../common/styles/Container.module.css'
 import Project from "./project/Project";
 
 const Projects = () => {
-    let skills: string[] = ['React', 'HTML', 'CSS']
-    let descriptions: string[] = [
+    let projectTitles: string[] = ['Stay Fit', 'Explore', 'Kana']
+    let projectDescriptions: string[] = [
         'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy',
         'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy',
         'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy',
@@ -15,7 +15,12 @@ const Projects = () => {
             <div className={c.container}>
                 <h2 className={c.title}>Projects</h2>
                 <div className={`${s.projects} ${c.contentSpaceBetween}`}>
-                    <Project title={skills[0]} description={descriptions[0]}/>
+                    <Project title={projectTitles[0]} description={projectDescriptions[0]}/>
+                    <Project title={projectTitles[1]} description={projectDescriptions[1]}/>
+                    <Project title={projectTitles[2]} description={projectDescriptions[2]}/>
+                    <Project title={projectTitles[0]} description={projectDescriptions[0]}/>
+                    <Project title={projectTitles[1]} description={projectDescriptions[1]}/>
+                    <Project title={projectTitles[2]} description={projectDescriptions[2]}/>
                 </div>
             </div>
         </div>

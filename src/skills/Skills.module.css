@@ -7,6 +7,6 @@
 .skills {
     border: 1px solid var(--red-color);
     align-content: space-between;
-    gap: 20px;
+    gap: 50px;
 }
 

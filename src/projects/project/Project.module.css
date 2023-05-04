@@ -1,3 +1,19 @@
+.project {
+    width: 350px;
+    /*background: var(--gray-color);*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projectImg {
+    width: 100%;
+    min-height: 200px;
+    background-image: url('https://media.licdn.com/dms/image/C4E12AQG2pj4JkZG0Yw/article-cover_image-shrink_600_2000/0/1520115601955?e=2147483647&v=beta&t=15dJ3ErnJfshcaCF1pn0x_PZO4-UeIeYayT1JR_1HY8');
+    background-size: cover;
+    background-position: center;
+}
+
 .title {
     color: var(--gray-color);
 }
