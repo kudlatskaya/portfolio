@@ -1,0 +1,8 @@
+.contactForm {
+
+}
+
+.contactForm input,
+.contactForm textarea {
+ width: 500px;
+}

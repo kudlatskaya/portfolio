@@ -13,7 +13,7 @@ const Projects = () => {
     return (
         <div className={s.projectsBlock}>
             <div className={c.container}>
-                <h2 className={c.title}>Projects</h2>
+                <h2 className={c.title}>Portfolio</h2>
                 <div className={`${s.projects} ${c.contentSpaceBetween}`}>
                     <Project title={projectTitles[0]} description={projectDescriptions[0]}/>
                     <Project title={projectTitles[1]} description={projectDescriptions[1]}/>

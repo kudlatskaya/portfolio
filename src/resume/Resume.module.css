@@ -1,0 +1,21 @@
+.resumeBlock {
+    min-height: 100vh;
+    background: var(--white-color);
+    color: var(--green-color);
+}
+
+.resume {
+    border: 1px solid var(--red-color);
+    display: flex;
+    align-content: space-between;
+    /*gap: 50px;*/
+}
+
+.column {
+    width: 47%;
+    border: 1px solid;
+}
+
+.subTitle {
+    text-align: center;
+}

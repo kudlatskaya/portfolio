@@ -1,0 +1,21 @@
+.place {
+    background: var(--gray-color);
+    color: var(--white-color);
+}
+
+.history {
+    display: flex;
+    justify-content: space-between;
+}
+
+.position {
+
+}
+
+.years {
+
+}
+
+.description {
+    text-align: left;
+}
