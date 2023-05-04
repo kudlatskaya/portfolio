@@ -1,7 +1,7 @@
 .skillsBlock {
     height: 100vh;
-    background: #393F40;
-    color: #F2DCE0;
+    background: var(--gray-color);
+    color: var(--white-color);
 
 }
 
@@ -11,5 +11,6 @@
 }
 
 .skills {
-    border: 1px solid #F2295F;
+    border: 1px solid var(--red-color);
 }
+

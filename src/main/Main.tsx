@@ -4,7 +4,7 @@ import c from '../common/styles/Container.module.css'
 const Main = () => {
     return (
         <div className={s.mainBlock}>
-            <div className={`${c.container} ${c.spaceBetween}`}>
+            <div className={`${c.container} ${c.contentSpaceBetween}`}>
                 <div className={s.text}>
                     <span>HELLO, MY NAME IS</span>
                     <h1>MARINA KUDLATSKAYA</h1>

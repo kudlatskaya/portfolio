@@ -1,0 +1,19 @@
+.skill {
+    width: 250px;
+    background: var(--pinc-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+    background: var(--gray-color);
+
+    width: 40px;
+    height: 40px;
+    /*transform: rotate(50deg) translate(25%);*/
+}
+
+.title {
+    color: var(--gray-color);
+}

@@ -5,8 +5,13 @@
     margin: 0 auto;
 }
 
-.spaceBetween {
+.contentSpaceBetween {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.contentCenter {
+    display: flex;
+    justify-content: center;
 }
