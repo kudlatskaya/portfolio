@@ -8,12 +8,15 @@
 
 .icon {
     background: var(--gray-color);
-
     width: 40px;
     height: 40px;
-    /*transform: rotate(50deg) translate(25%);*/
 }
 
 .title {
     color: var(--gray-color);
+}
+
+.description {
+    color: var(--gray-color);
+    text-align: center;
 }

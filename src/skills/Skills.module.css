@@ -1,8 +1,7 @@
 .skillsBlock {
-    height: 100vh;
+    min-height: 100vh;
     background: var(--gray-color);
     color: var(--white-color);
-
 }
 
 .title {

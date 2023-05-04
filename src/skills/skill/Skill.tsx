@@ -2,15 +2,17 @@ import s from './Skill.module.css'
 import c from '../../common/styles/Container.module.css'
 
 type SkillPropsType = {
-    title: string
+    title: string,
+    description: string
 }
 
-const Skill = ({title}: SkillPropsType) => {
+const Skill = ({title, description}: SkillPropsType) => {
 
     return (
         <div className={s.skill}>
             <div className={s.icon}></div>
             <h3 className={s.title}>{title}</h3>
+            <span className={s.description}>{description}</span>
         </div>
     );
 };
