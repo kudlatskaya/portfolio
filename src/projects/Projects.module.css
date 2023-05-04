@@ -1,0 +1,9 @@
+.projectsBlock {
+    background: var(--light-green-color);
+}
+
+.projects {
+    border: 1px solid var(--red-color);
+    align-content: space-between;
+    gap: 20px;
+}

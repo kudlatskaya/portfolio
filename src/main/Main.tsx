@@ -8,7 +8,7 @@ const Main = () => {
                 <div className={s.text}>
                     <span>HELLO, MY NAME IS</span>
                     <h1>MARINA KUDLATSKAYA</h1>
-                    <span>I AM Web Developer</span>
+                    <span>I AM Frontend Developer</span>
                 </div>
                 <div className={s.photo}></div>
             </div>

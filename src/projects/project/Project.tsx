@@ -1,12 +1,12 @@
-import s from './Skill.module.css'
+import s from './Project.module.css'
+import c from '../common/styles/Container.module.css'
 
 type SkillPropsType = {
     title: string,
     description: string
 }
 
-const Skill = ({title, description}: SkillPropsType) => {
-
+const Project = ({title, description}: SkillPropsType) => {
     return (
         <div className={s.skill}>
             <div className={s.icon}></div>
@@ -16,4 +16,4 @@ const Skill = ({title, description}: SkillPropsType) => {
     );
 };
 
-export default Skill;
+export default Project;

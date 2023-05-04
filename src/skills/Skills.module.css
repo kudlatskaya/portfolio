@@ -4,12 +4,9 @@
     color: var(--white-color);
 }
 
-.title {
-    font-weight: bold;
-    text-align: center;
-}
-
 .skills {
     border: 1px solid var(--red-color);
+    align-content: space-between;
+    gap: 20px;
 }
 
