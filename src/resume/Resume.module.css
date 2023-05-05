@@ -8,7 +8,6 @@
     border: 1px solid var(--red-color);
     display: flex;
     align-content: space-between;
-    /*gap: 50px;*/
 }
 
 .column {
@@ -18,4 +17,14 @@
 
 .subTitle {
     text-align: center;
+}
+
+@media (max-width : 860px) {
+    .resume {
+        flex-wrap: wrap;
+    }
+
+    .column {
+        width: 100%;
+    }
 }
