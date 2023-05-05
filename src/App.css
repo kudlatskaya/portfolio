@@ -1,5 +1,10 @@
 /*--main-color: black;*/
 /*color: var(--main-color);*/
+
+/*font-family: 'Caveat', cursive;*/
+/*font-family: 'Jost', sans-serif;*/
+/*font-family: 'Roboto', sans-serif;*/
+
 :root {
     --pinc-color: #F2DCE0;
     --red-color: #F2295F;
@@ -11,3 +16,4 @@
 .App {
 
 }
+
