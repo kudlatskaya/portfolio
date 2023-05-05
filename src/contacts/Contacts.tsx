@@ -1,5 +1,5 @@
 import s from './Contacts.module.css'
-import c from '../common/styles/Container.module.css'
+import c from '../common/styles/styles.module.css'
 
 const Contacts = () => {
     return (
@@ -7,10 +7,11 @@ const Contacts = () => {
             <div className={c.container}>
                 <h2 className={c.title}>Contact me</h2>
                 <div className={s.contactForm}>
-                    <form action="">
+                    <form  action="">
                         <input type="text"/>
                         <input type="text"/>
                         <textarea name="" id="" ></textarea>
+                        <button  type={"submit"}>SEND MESSAGE</button>
                     </form>
                 </div>
             </div>

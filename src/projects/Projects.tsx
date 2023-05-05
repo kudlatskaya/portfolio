@@ -1,5 +1,5 @@
 import s from './Projects.module.css'
-import c from '../common/styles/Container.module.css'
+import c from '../common/styles/styles.module.css'
 import Project from "./project/Project";
 
 const Projects = () => {

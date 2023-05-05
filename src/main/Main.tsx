@@ -1,5 +1,5 @@
 import s from './Main.module.css'
-import c from '../common/styles/Container.module.css'
+import c from '../common/styles/styles.module.css'
 
 const Main = () => {
     return (
