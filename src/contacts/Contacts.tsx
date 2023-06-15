@@ -1,5 +1,5 @@
-import s from './Contacts.module.css'
-import c from '../common/styles/styles.module.css'
+import s from './Contacts.module.scss'
+import c from '../common/styles/styles.module.scss'
 
 const Contacts = () => {
     return (

@@ -1,5 +1,5 @@
-import s from './Resume.module.css'
-import c from '../common/styles/styles.module.css'
+import s from './Resume.module.scss'
+import c from '../common/styles/styles.module.scss'
 import Place from "./place/Place";
 
 const Resume = () => {

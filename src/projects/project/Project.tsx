@@ -1,5 +1,5 @@
-import s from './Project.module.css'
-import c from '../common/styles/Container.module.css'
+import s from './Project.module.scss'
+import c from '../common/styles/Container.module.scss'
 
 type ProjectPropsType = {
     title: string,

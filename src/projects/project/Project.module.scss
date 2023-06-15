@@ -1,6 +1,8 @@
+@import "../../common/styles/variables";
+
 .project {
     width: 350px;
-    /*background: var(--gray-color);*/
+    background: $textColor;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,10 +17,10 @@
 }
 
 .history {
-    color: var(--gray-color);
+    color: $textColor;
 }
 
 .description {
-    color: var(--gray-color);
+    color: $textColor;
     text-align: center;
 }

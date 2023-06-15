@@ -1,0 +1,14 @@
+@import "../common/styles/variables";
+
+.skillsBlock {
+    min-height: 100vh;
+    background: $textColor;
+    color: $bgSecondColor;
+}
+
+.skills {
+    border: 1px solid $bgColor;
+    align-content: space-between;
+    gap: 50px;
+}
+

@@ -1,3 +1,5 @@
+@import "../common/styles/variables";
+
 .footerBlockContainer {
     min-height: auto;
 }
@@ -5,10 +7,16 @@
 .socialLinks {
     width: 400px;
     margin: 0 auto;
+
+    @media (max-width : 860px) {
+        width: 100%;
+        padding: 10px;
+        justify-content: space-between;
+    }
 }
 
 .icon {
-    background: var(--gray-color);
+    background: $bgColor;
     width: 40px;
     height: 40px;
     transform: rotate(45deg) translate(7px,7px);
@@ -19,11 +27,4 @@
     margin-top: 60px;
 }
 
-@media (max-width : 860px) {
-    .socialLinks {
-        width: 100%;
-        padding: 10px;
-        justify-content: space-between;
-    }
-}
 

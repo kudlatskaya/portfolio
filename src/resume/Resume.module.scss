@@ -1,0 +1,31 @@
+@import "../common/styles/variables";
+
+.resumeBlock {
+    min-height: 100vh;
+    background: $bgSecondColor;
+    color: $bgColor;
+}
+
+.resume {
+    border: 1px solid $bgColor;
+    display: flex;
+    align-content: space-between;
+
+    @media (max-width : 860px) {
+        flex-wrap: wrap;
+    }
+}
+
+.column {
+    width: 47%;
+    border: 1px solid;
+
+    @media (max-width : 860px) {
+        width: 100%;
+    }
+}
+
+.subTitle {
+    text-align: center;
+}
+

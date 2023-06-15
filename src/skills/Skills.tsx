@@ -1,5 +1,5 @@
-import s from './Skills.module.css'
-import c from '../common/styles/styles.module.css'
+import s from './Skills.module.scss'
+import c from '../common/styles/styles.module.scss'
 import Skill from "./skill/Skill";
 
 const Skills = () => {

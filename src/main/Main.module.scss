@@ -1,0 +1,17 @@
+@import "../common/styles/variables";
+
+.mainBlock {
+    height: 100vh;
+    background: $primaryColor;
+}
+
+.text {
+    width: 300px;
+    background: $bgColor;
+}
+
+.photo {
+    width: 300px;
+    height: 400px;
+    background: $textColor;
+}

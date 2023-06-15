@@ -1,0 +1,12 @@
+@import "../common/styles/variables";
+
+.projectsBlock {
+    background: $bgColor;
+}
+
+.projects {
+    border: 1px solid $bgColor;
+    align-content: space-between;
+    gap: 50px;
+}
+

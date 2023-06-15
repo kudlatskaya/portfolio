@@ -1,4 +1,4 @@
-import s from './Place.module.css'
+import s from './Place.module.scss'
 
 type PlacePropsType = {
     name: string,

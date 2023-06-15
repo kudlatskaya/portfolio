@@ -1,5 +1,7 @@
+@import "../common/styles/variables";
+
 .nav {
-    border: 1px solid var(--green-color);
+    border: 1px solid $primaryColor;
     width: 40%;
     display: flex;
     justify-content: space-between;
