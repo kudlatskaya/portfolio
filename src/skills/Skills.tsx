@@ -1,6 +1,7 @@
 import s from './Skills.module.scss'
 import c from '../common/styles/styles.module.scss'
 import Skill from "./skill/Skill";
+import Subtitle from "../components/subtitle/Subtitle";
 
 const Skills = () => {
     let skills: string[] = ['React', 'HTML', 'CSS']
@@ -11,9 +12,10 @@ const Skills = () => {
     ]
 
     return (
-        <div className={s.skillsBlock}>
+        <div>
             <div className={c.container}>
-                <h2 className={c.title}>Skills</h2>
+                <h2 className={c.sectionTitle}>PROFESSIONAL SKILLS</h2>
+                <Subtitle text={'MY '} primaryText={'Talent'}/>
                 <div className={`${s.skills} ${c.contentSpaceBetween}`}>
                     <Skill title={skills[0]} description={descriptions[0]}/>
                     <Skill title={skills[1]} description={descriptions[1]}/>

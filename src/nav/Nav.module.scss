@@ -1,15 +1,26 @@
 @import "../common/styles/variables";
 
 .nav {
-    border: 1px solid $primaryColor;
-    width: 40%;
-    display: flex;
-    justify-content: space-between;
-    font-weight: bold;
-    text-transform: uppercase;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
 }
 
-a,
-a:hover {
+a {
+  color: $titleColor;
+  text-decoration: none;
+  font-family: $secondaryFontFamily;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: .05em;
+
+  &:hover {
     text-decoration: none;
+    color: $primaryColor;
+    transition: all .7s cubic-bezier(.3, 0, .3, 1);
+    -webkit-transition: all .7s cubic-bezier(.3, 0, .3, 1);
+  }
 }
+
+

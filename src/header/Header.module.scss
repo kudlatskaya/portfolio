@@ -1,9 +1,12 @@
 @import "../common/styles/variables";
 
 .header {
-    height: 80px;
+    height: 12vh;
+    padding: 30px;
     background: $bgColor;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    z-index: 90;
 }
+

@@ -1,0 +1,9 @@
+@import "../../common/styles/mixins";
+
+.subtitle {
+  @include title(15px, center);
+  margin-bottom: 40px;
+  &>span {
+    color: $primaryColor;
+  }
+}

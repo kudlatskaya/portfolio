@@ -1,12 +1,16 @@
+@import "./common/styles/variables";
+
 * {
   box-sizing: border-box;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: $secondaryFontFamily;
+  color: $textColor;
+  background-color: $bgColor;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

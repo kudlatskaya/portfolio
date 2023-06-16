@@ -1,0 +1,10 @@
+@import "./variables";
+
+@mixin title($fontSize, $textAlign) {
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  font-weight: 700;
+  color: $titleColor;
+  font-size: $fontSize;
+  text-align: $textAlign;
+}

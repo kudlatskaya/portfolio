@@ -1,8 +1,11 @@
+@import "../../common/styles/variables";
+@import "../../common/styles/mixins";
+
 .container {
-    border: 1px solid;
     min-height: 100vh;
     width: 80%;
     margin: 0 auto;
+    padding-bottom: 120px;
 }
 
 .contentSpaceBetween {
@@ -16,9 +19,25 @@
     }
 }
 
-.title {
-    font-weight: bold;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 60px;
+.contentSpaceAround {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+
+strong {
+    font-family: $primaryFontFamily;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-transform: none;
+    margin-left: 10px;
+}
+
+.sectionTitle {
+    @include title(34px, center);
+    margin-bottom: 10px;
 }

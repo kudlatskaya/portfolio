@@ -3,10 +3,11 @@ import s from './Nav.module.scss'
 const Nav = () => {
     return (
         <div className={s.nav}>
-            <a href="">Главная</a>
-            <a href="">Скилы</a>
-            <a href="">Проекты</a>
-            <a href="">Контакты</a>
+            <a href="">HOME</a>
+            <a href="">SKILLS</a>
+            <a href="">PROJECTS</a>
+            <a href="">RESUME</a>
+            <a href="">CONTACT</a>
         </div>
     );
 };
