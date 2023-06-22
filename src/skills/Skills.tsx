@@ -2,27 +2,28 @@ import s from './Skills.module.scss'
 import c from '../common/styles/styles.module.scss'
 import Skill from "./skill/Skill";
 import Subtitle from "../components/subtitle/Subtitle";
-
-import { faReact } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faReact, faHtml5, faCss3, faGitAlt } from '@fortawesome/free-brands-svg-icons';
+import faJs from '../assets/js_icon.svg'
+import  faRedux  from '../../src/assets/redux_icon.svg'
+import  faStorybook  from '../../src/assets/storybook.svg'
+import {IconDefinition} from "@fortawesome/fontawesome-common-types";
 
 type SkillsType = {
-    icon: string,
+    icon: IconDefinition | string,
     title: string,
 }
 
 const Skills = () => {
     let skills: SkillsType[] = [
-        {icon: '../../assets/css.svg', title: 'JavaScript'},
-        {icon: 'src/assets/css.svg', title: 'HTML'},
-        {icon: 'src/assets/css.svg', title: 'CSS'},
-        {icon: 'src/assets/css.svg', title: 'React'},
-        {icon: 'src/assets/css.svg', title: 'Redux'},
-        {icon: 'src/assets/css.svg', title: 'Storybook'},
-        {icon: 'src/assets/css.svg', title: 'Git'},
-        {icon: 'src/assets/css.svg', title: 'Redux Toolkit'},
+        {icon: faJs, title: 'JavaScript'},
+        {icon: faHtml5, title: 'HTML'},
+        {icon: faCss3, title: 'CSS'},
+        {icon: faReact, title: 'React'},
+        {icon: faRedux, title: 'Redux'},
+        {icon: faStorybook, title: 'Storybook'},
+        {icon: faGitAlt, title: 'Git'},
+        {icon: faRedux, title: 'Redux Toolkit'},
     ]
-
 
     return (
         <div>
