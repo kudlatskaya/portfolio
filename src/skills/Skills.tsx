@@ -2,10 +2,12 @@ import s from './Skills.module.scss'
 import c from '../common/styles/styles.module.scss'
 import Skill from "./skill/Skill";
 import Subtitle from "../components/subtitle/Subtitle";
-import { faReact, faHtml5, faCss3, faGitAlt } from '@fortawesome/free-brands-svg-icons';
+import { faReact, faHtml5 } from '@fortawesome/free-brands-svg-icons';
+import faGit from '../assets/git_icon.svg'
+import faCss3 from '../assets/css_icon.svg'
 import faJs from '../assets/js_icon.svg'
 import  faRedux  from '../../src/assets/redux_icon.svg'
-import  faStorybook  from '../../src/assets/storybook.svg'
+import  faStorybook  from '../assets/storybook_icon.svg'
 import {IconDefinition} from "@fortawesome/fontawesome-common-types";
 
 type SkillsType = {
@@ -21,7 +23,7 @@ const Skills = () => {
         {icon: faReact, title: 'React'},
         {icon: faRedux, title: 'Redux'},
         {icon: faStorybook, title: 'Storybook'},
-        {icon: faGitAlt, title: 'Git'},
+        {icon: faGit, title: 'Git'},
         {icon: faRedux, title: 'Redux Toolkit'},
     ]
 

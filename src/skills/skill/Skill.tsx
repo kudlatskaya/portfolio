@@ -14,7 +14,7 @@ const Skill = ({icon, title}: SkillPropsType) => {
             <div className={s.icon}>
                 {
                     typeof icon === 'string'
-                        ? <img src={s.icon} alt=""/>
+                        ? <img className={s.svgIcon} src={icon} alt=""/>
                         : <FontAwesomeIcon className={s.fontAwesomeIcon} icon={icon}/>
                 }
             </div>
