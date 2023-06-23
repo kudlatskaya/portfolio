@@ -1,6 +1,7 @@
 import s from './Resume.module.scss'
 import c from '../common/styles/styles.module.scss'
 import Place from "./place/Place";
+import Subtitle from "../components/subtitle/Subtitle";
 
 const Resume = () => {
     let lorem = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
@@ -8,7 +9,8 @@ const Resume = () => {
     return (
         <div className={s.resumeBlock}>
             <div className={c.container}>
-                <h2 className={c.title}>Resume</h2>
+                <h2 className={c.sectionTitle}>Resume</h2>
+                <Subtitle text={'MY '} primaryText={'Story'}/>
                 <div className={`${s.resume} ${c.contentSpaceBetween}`}>
                     <div className={s.column}>
                         <h3 className={s.subTitle}>Education</h3>

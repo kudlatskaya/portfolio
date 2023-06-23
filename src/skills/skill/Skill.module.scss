@@ -19,7 +19,17 @@
   align-items: center;
   justify-content: center;
   box-shadow: 5px 5px 0 rgba(122, 122, 122, 0.3);
+
+  &::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 30px;
+    background: $textColor;
+    margin-left: 85px;
+  }
 }
+
 
 .svgIcon {
   width: 35px;

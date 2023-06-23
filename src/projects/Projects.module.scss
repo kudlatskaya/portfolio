@@ -5,8 +5,8 @@
 }
 
 .projects {
-    border: 1px solid $bgColor;
+    display: flex;
     align-content: space-between;
-    gap: 50px;
+    gap: 40px;
 }
 

@@ -1,8 +1,9 @@
 @import "../common/styles/variables";
+@import "../common/styles/mixins";
 
 .resumeBlock {
     min-height: 100vh;
-    background: $bgSecondColor;
+    background: $bgColor;
     color: $bgColor;
 }
 
@@ -26,6 +27,10 @@
 }
 
 .subTitle {
+    font-size: 24px;
+    color: $titleColor;
     text-align: center;
+    padding: 0 0 30px;
+    border-bottom: 2px solid $titleColor;
 }
 

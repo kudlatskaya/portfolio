@@ -26,8 +26,6 @@
     flex-wrap: wrap;
 }
 
-
-
 strong {
     font-family: $primaryFontFamily;
     font-size: 30px;
@@ -40,4 +38,12 @@ strong {
 .sectionTitle {
     @include title(34px, center);
     margin-bottom: 10px;
+}
+
+.subtitle {
+    @include title(15px, left);
+
+    & > span {
+        color: $primaryColor;
+    }
 }

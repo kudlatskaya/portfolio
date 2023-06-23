@@ -1,8 +1,8 @@
 import s from "./Subtitle.module.scss";
 
 type SubtitlePropsType = {
-    text: string;
-    primaryText: string;
+    text: string,
+    primaryText: string,
 }
 
 const Subtitle = ({text, primaryText}:SubtitlePropsType) => {
