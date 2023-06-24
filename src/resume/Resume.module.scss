@@ -2,35 +2,35 @@
 @import "../common/styles/mixins";
 
 .resumeBlock {
-    min-height: 100vh;
-    background: $bgColor;
-    color: $bgColor;
+  min-height: 100vh;
+  background: $bgColor;
 }
 
 .resume {
-    border: 1px solid $bgColor;
-    display: flex;
-    align-content: space-between;
+  border: 1px solid $bgColor;
+  display: flex;
+  align-content: space-between;
+  align-items: flex-start;
 
-    @media (max-width : 860px) {
-        flex-wrap: wrap;
-    }
+  @media (max-width: 860px) {
+    flex-wrap: wrap;
+  }
 }
 
 .column {
-    width: 47%;
-    border: 1px solid;
-
-    @media (max-width : 860px) {
-        width: 100%;
-    }
+  width: 47%;
+  @media (max-width: 860px) {
+    width: 100%;
+  }
 }
 
 .subTitle {
-    font-size: 24px;
-    color: $titleColor;
-    text-align: center;
-    padding: 0 0 30px;
-    border-bottom: 2px solid $titleColor;
+  font-size: 24px;
+  color: $titleColor;
+  text-align: center;
+  padding: 0 0 30px;
+  border-bottom: 2px solid $titleColor;
 }
+
+
 
