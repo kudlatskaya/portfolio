@@ -1,12 +1,32 @@
 @import "../../common/styles/variables";
 @import "../../common/styles/mixins";
 
+//.icon {
+//  width: 56px;
+//  height: 56px;
+//  border: 2px solid $textColor;
+//  background-color: $bgSecondColor;
+//  border-radius: 50%;
+//  display: flex;
+//  align-items: center;
+//  justify-content: center;
+//  box-shadow: 5px 5px 0 rgba(122, 122, 122, 0.3);
+//
+//  &::after {
+//    content: '';
+//    position: absolute;
+//    height: 2px;
+//    width: 30px;
+//    background: $textColor;
+//    margin-left: 85px;
+//  }
+//}
+
 .place {
   color: $titleColor;
   background-color: $bgColor;
   box-shadow: none;
   border-bottom: 2px solid $textColor;
-
 }
 
 .content {
@@ -39,10 +59,15 @@
 .years {
   line-height: 46px;
   @include title(13px, left);
+
+  & span {
+    color: $primaryColor;
+  }
 }
 
 .description {
   text-align: left;
+  padding: 15px 50px 30px 30px;
   color: $textColor;
-  padding: 15px 50px 30px  30px;
+  line-height: 1.7;
 }

@@ -8,29 +8,6 @@
   align-items: center;
   gap: 70px;
 }
-
-.icon {
-  width: 56px;
-  height: 56px;
-  border: 2px solid $textColor;
-  background-color: $bgSecondColor;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 5px 5px 0 rgba(122, 122, 122, 0.3);
-
-  &::after {
-    content: '';
-    position: absolute;
-    height: 2px;
-    width: 30px;
-    background: $textColor;
-    margin-left: 85px;
-  }
-}
-
-
 .svgIcon {
   width: 35px;
   height: 35px;
@@ -38,25 +15,8 @@
   text-align: center;
 }
 
-.fontAwesomeIcon {
-  width: 35px;
-  height: 35px;
-  color: $titleColor;
-  text-align: center;
-}
-
-//.icon
-//border: 2px solid #a3a5a7;
-//background-color: #1d222a;
-//box-shadow: 5px 5px 0px 0px rgb(255 255 255/10%);
-
 .title {
   color: $textColor;
   @include title(21px, left);
   text-transform: none;
 }
-
-//.description {
-//    color: $textColor;
-//    text-align: center;
-//}

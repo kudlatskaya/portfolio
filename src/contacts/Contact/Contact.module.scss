@@ -1,0 +1,25 @@
+@import "../../common/styles/variables";
+
+.contact {
+  //width: 30%;
+  display: flex;
+  justify-content: start;
+  align-items: baseline;
+  gap: 70px;
+  margin-bottom: 40px;
+
+  .contactDescription {
+    text-align: left;
+    font-weight: 500;
+
+    .contactName {
+      color: $titleColor;
+      padding: 10px 0;
+
+      & strong {
+        margin-left: 0;
+      }
+    }
+
+  }
+}

@@ -47,3 +47,24 @@ strong {
         color: $primaryColor;
     }
 }
+
+.icon {
+    width: 56px;
+    height: 56px;
+    border: 2px solid $textColor;
+    background-color: $bgSecondColor;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 0 rgba(122, 122, 122, 0.3);
+
+    &::after {
+        content: '';
+        position: absolute;
+        height: 2px;
+        width: 40px;
+        background: $textColor;
+        margin-left: 95px;
+    }
+}
