@@ -2,24 +2,32 @@
 
 .contact {
   display: flex;
-  justify-content: start;
-  align-items: baseline;
-  gap: 70px;
-  margin-bottom: 40px;
-
-  .contactDescription {
-    text-align: left;
-    font-weight: 500;
+  //justify-content: start;
+  //align-items: flex-start;
+  margin-bottom: 70px;
+  flex-direction: column;
 
     .contactName {
       color: $titleColor;
       padding: 10px 0;
+      text-align: left;
+      font-weight: 500;
 
       & strong {
         margin-left: 0;
       }
     }
-  }
+
+    .row {
+      display: flex;
+      flex-direction: row;
+      gap: 70px;
+
+      &.rowNumber {
+        justify-content: end;
+      }
+    }
+
   @media (max-width: 576px) {
     width: 100%;
   }

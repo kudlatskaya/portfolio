@@ -12,13 +12,17 @@ type ContactPropstype = {
 const Contact = ({icon, name, number}: ContactPropstype) => {
     return (
         <div className={s.contact}>
-            <div className={c.icon}>
-                <FontAwesomeIcon icon={icon} style={{color: '#eaeaea', height: '20px', width: '20px'}}/>
+            <div className={s.row}>
+                <div className={c.icon}>
+                    <FontAwesomeIcon icon={icon} style={{color: '#eaeaea', height: '20px', width: '20px'}}/>
+                </div>
+                {/*<div className={s.contactDescription}>*/}
+                <div className={s.contactName}><strong>{name}</strong></div>
             </div>
-            <div className={s.contactDescription}>
-                <p className={s.contactName}><strong>{name}</strong></p>
-                <p>{number}</p>
+            <div className={`${s.row} ${s.rowNumber}`}>
+                <div>{number}</div>
             </div>
+            {/*</div>*/}
         </div>
     );
 };
