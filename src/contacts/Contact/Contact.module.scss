@@ -1,7 +1,6 @@
 @import "../../common/styles/variables";
 
 .contact {
-  //width: 30%;
   display: flex;
   justify-content: start;
   align-items: baseline;
@@ -20,6 +19,8 @@
         margin-left: 0;
       }
     }
-
+  }
+  @media (max-width: 576px) {
+    width: 100%;
   }
 }

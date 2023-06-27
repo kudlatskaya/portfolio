@@ -27,6 +27,7 @@
   background-color: $bgColor;
   box-shadow: none;
   border-bottom: 2px solid $textColor;
+
 }
 
 .content {
@@ -40,12 +41,31 @@
   text-align: left;
   margin: 0;
   padding: 30px;
+
+  @media (max-width: 576px) {
+    padding: 30px 0;
+  }
 }
 
 .history {
   display: flex;
   justify-content: space-between;
   padding: 0 50px 0 30px;
+  flex-wrap: wrap;
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+  }
+
+  @media (max-width: 860px) {
+    flex-direction: row;
+  }
+
+  @media (max-width: 576px) {
+    padding-left: 0;
+    padding-right: 0;
+    flex-direction: column;
+  }
 }
 
 .position {
@@ -63,6 +83,11 @@
   & span {
     color: $primaryColor;
   }
+
+  @media (max-width: 1024px) {
+    display: flex;
+    justify-content: flex-end;
+  }
 }
 
 .description {
@@ -70,4 +95,8 @@
   padding: 15px 50px 30px 30px;
   color: $textColor;
   line-height: 1.7;
+  @media (max-width: 576px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }

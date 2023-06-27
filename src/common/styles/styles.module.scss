@@ -6,6 +6,10 @@
     width: 80%;
     margin: 0 auto;
     padding-bottom: 120px;
+
+    @media (max-width : 860px) {
+        //width: 100%;
+    }
 }
 
 .contentSpaceBetween {

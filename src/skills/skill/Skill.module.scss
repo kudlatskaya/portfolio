@@ -7,6 +7,14 @@
   justify-content: start;
   align-items: center;
   gap: 70px;
+
+  @media (max-width: 820px) {
+    width: 45%;
+  }
+
+  @media (max-width: 576px) {
+    width: 100%;
+  }
 }
 .svgIcon {
   width: 35px;

@@ -30,6 +30,9 @@
   text-align: center;
   padding: 0 0 30px;
   border-bottom: 2px solid $titleColor;
+  @media (max-width: 860px) {
+    padding: 30px 0;
+  }
 }
 
 

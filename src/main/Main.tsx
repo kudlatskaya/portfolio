@@ -6,7 +6,7 @@ const Main = () => {
     return (
         <div className={s.mainBlock}>
             <div className={`${c.container} ${c.contentSpaceAround}`}>
-                <div>
+                <div className={s.aboutMe}>
                     <h3 className={c.subtitle}>HELLO, <span>MY NAME IS</span></h3>
                     <h1 className={s.headTitle}><span>MARINA </span>KUDLATSKAYA</h1>
                     <h3 className={c.subtitle}>I AM <strong>Frontend Developer</strong></h3>

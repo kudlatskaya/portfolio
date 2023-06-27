@@ -4,16 +4,24 @@
 .mainBlock {
   background: $bgColor;
   height: 88vh;
+.aboutMe{
+  width: 100%;
 
+  .headTitle {
+    @include title(64px, left);
+    margin: 15px 0 0;
+    text-shadow: 2px 2px #000, -2px 2px #000, 2px -2px #000, -2px -2px #000, 5px 5px 0px rgba(0, 0, 0, .2);
 
-}
+    & > span {
+      color: $primaryColor;
+    }
 
-.headTitle {
-  @include title(64px, left);
-  margin: 15px 0 0;
-  text-shadow: 2px 2px #000, -2px 2px #000, 2px -2px #000, -2px -2px #000, 5px 5px 0px rgba(0, 0, 0, .2);
-
-  & > span {
-    color: $primaryColor;
+    @media (max-width: 576px) {
+      font-size: 24px;
+      padding: 20px 0;
+    }
   }
 }
+
+}
+

@@ -12,6 +12,7 @@ import {useEffect, useState} from "react";
 function App() {
     const [open, setOpen] = useState(false)
     const handleClose = () => setOpen(false)
+    const handleOpen = () => setOpen(true)
 
     useEffect(() => {
         open && (document.body.style.overflow = 'hidden')
@@ -21,7 +22,7 @@ function App() {
     return (
         <div className="App">
             <Sidebar open={open} handleClose={handleClose} />
-            <Header/>
+            <Header open={open} handleOpen={handleOpen}/>
             <Main/>
             <Skills/>
             <Projects />
