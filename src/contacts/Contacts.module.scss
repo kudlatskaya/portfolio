@@ -20,6 +20,10 @@
       padding-left: 0;
       padding-right: 0;
     }
+
+    @media (max-width: 768px) {
+      width: 70%;
+    }
   }
 
   .contactForm {
@@ -31,7 +35,6 @@
       display: flex;
       gap: 30px;
       flex-direction: column;
-      //align-items: end;
 
       .row {
         display: flex;
@@ -55,12 +58,14 @@
             color: $primaryColor;
           }
 
-
           @media (max-width: 1024px) {
             padding-left: 10px;
           }
-        }
 
+          @media (max-width: 768px) {
+            padding-left: 30px;
+          }
+        }
 
         input, textarea {
           position: relative;
@@ -84,7 +89,6 @@
           padding-bottom: 20px;
           resize: none;
         }
-
       }
 
       .buttonDiv {
@@ -106,15 +110,16 @@
           -webkit-border-radius: 56px;
         }
       }
-
     }
-
 
     @media (max-width: 860px) {
       width: 100%;
     }
   }
 
+  @media (max-width: 768px) {
+    justify-content: center;
+  }
 }
 
 
